@@ -25,7 +25,5 @@ jobs:
           -Dsonar.organization=my-Trigsy1
           -Dsonar.projectKey=my-Trigsy1_github-actions-continuous-delivery-azure
           -Dsonar.python.coverage.reportPaths=coverage.xml
-          -Dsonar.sources=lib/
-          -Dsonar.test.exclusions=tests/**
-          -Dsonar.tests=tests/
           -Dsonar.verbose=true
+          -X
