@@ -21,7 +21,6 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
       with:
-        projectBaseDir: master
         args: >
           -Dsonar.organization=my-Trigsy1
           -Dsonar.projectKey=my-Trigsy1_github-actions-continuous-delivery-azure
